@@ -1,14 +1,17 @@
 # UBSI Devs Community - BETA
+
+Website ini dibuat untuk mengimplementasikan apa yang telah saya pelajari dalam materi PHP Dasar  
+dan untuk memenuhi Tugas Akhir Semester 2 Mata Kuliah Web Programming I - Universitas BSI Tegal
 	
 ### 🗒 ToDo List
-- [ ] Halaman Landing
-- [ ] Halaman Login
-- [ ] Halaman Register
-- [ ] Halaman Admin
-- [ ] Merge to Icons Bootstrap
-- [ ] Meta Tag
-- [ ] Meta Social Tag
-- [ ] Responsive Web App Support
+- [x] Halaman Landing
+- [x] Halaman Login
+- [x] Halaman Register
+- [x] Halaman Admin
+- [x] Merge to Icons Bootstrap
+- [x] Meta Tag
+- [x] Meta Social Tag
+- [x] Responsive Web App Support
 - [ ] Lainnya...
 
 
@@ -23,11 +26,11 @@
 - PHP 7+ ( Apache, Nginx, Openlitespeed )
 
 ### 👨‍💻 Developer
-- Haikal Akhalul Azhar
-- Widodo Zakaria
 - Andika Tulus Pangestu
 
 ### ☕ Referensi, Lisensi Sumber Perangkat Lunak terbuka, Kontribusi
+
+#### Big Thanks for [Ahmad Saugi](https://github.com/zuramai) for Awesome [Mazer Free & Open Source Admin Dashboard](https://github.com/zuramai/mazer)
 
 - [Bootstrap](https://getbootstrap.com/)
 - [W3School](https://w3school.com)
@@ -45,4 +48,4 @@
 
 ### 📜 LISENSI
 
-**This is closed-sourced software licensed under the Apache license**
+**This is open-sourced software for educational purpose only**
