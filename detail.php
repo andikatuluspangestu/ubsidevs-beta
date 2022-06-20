@@ -1,4 +1,4 @@
-<?php require 'controller/koneksi.php'; ?>
+<?php require 'dashboard/controller/koneksi.php'; ?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -7,13 +7,13 @@
   <meta http-equiv="x-ua-compatible" content="ie=edge" />
   <meta name="description" content="" />
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-  <title>Kuliah Koding</title>
+  <title>Artikel - UBSI Tegal Devs Community</title>
  <link rel="shortcut icon" href="../assets/images/favicon.svg" type="image/svg" />
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-  <link rel="stylesheet" href="../assets/css/lineicons.css" />
-  <link rel="stylesheet" href="../assets/css/tiny-slider.css" />
-  <link rel="stylesheet" href="../assets/css/glightbox.min.css" />
-  <link rel="stylesheet" href="../style.css" />
+  <link rel="stylesheet" href="assets/css/lineicons.css" />
+  <link rel="stylesheet" href="assets/css/tiny-slider.css" />
+  <link rel="stylesheet" href="assets/css/glightbox.min.css" />
+  <link rel="stylesheet" href="assets/css/style.css" />
 </head>
 <body>
 
@@ -59,19 +59,22 @@
   </section>
   <!-- Akhir Bagian Navbar -->
 
-  <!-- Bagian Detail Post -->
   <?php
   		$id = $_GET["id"] ;
   		$sql = "select * from t_artikel WHERE id = '$id'";
   		$res = mysqli_query($con, $sql);
   		while ($data = mysqli_fetch_array($res)) {
   ?>
-  <section id="hero-area" class="header-area header-eight">
+
+  <section id="hero-area" class="header-area hero-utama mt-4">
     <div class="container">
       <div class="row align-items-center">
         <div class="col-lg-12 col-md-12 col-12">
-          <div class="header-content">
-            <h1 class="text-center"><?php echo $data["judul"]; ?></h1>
+          <div class="header-content text-center">
+            
+            <!-- Hero Captions -->
+            <h1><?php echo htmlspecialchars_decode($data["judul"]); ?></h1>
+    
           </div>
         </div>
       </div>
@@ -79,7 +82,7 @@
   </section>
   <!-- Akhir Hero -->
 
-  <!-- Awal tentang kita tertulis -->
+  <!-- Bagian Detail Post -->
   <section class="about-area tentang-kita">
     <div class="container">
       <div class="row align-items-center">
@@ -90,8 +93,8 @@
     </div>
   </section>
   <?php
-  					}
-  					?>
+  }
+  ?>
   <!-- Akhir Tentang Kita :( -->
 
   <!-- Bagian Footer -->
