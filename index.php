@@ -554,7 +554,7 @@
   </a>
 
   <!-- General Javascript -->
-  <script src="https//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+                          
   <script src="assets/js/bootstrap.bundle.min.js"></script>
   <script src="assets/js/glightbox.min.js"></script>
   <script src="assets/js/main.js"></script>

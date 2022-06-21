@@ -78,7 +78,7 @@
                     </li>
 
                     <li class="sidebar-item">
-                        <a href="../index.php" target="_blank" class='sidebar-link'>
+                        <a href="/wp-project" target="_blank" class='sidebar-link'>
                             <i class="bi bi-globe"></i>
                             <span>Lihat Website</span>
                         </a>
@@ -140,7 +140,7 @@
                     <div class="row">
                         <div class="col-12 col-md-6 order-md-1 order-last">
                             <h3>Daftar Laporan</h3>
-                            <p class="text-subtitle text-muted">List Laporan yang terdaftar di Admin UBSI Tegal Devs Community</p>
+                            <p class="text-subtitle text-muted">List Laporan yang kamu buat di UBSI Tegal Devs Community</p>
                         </div>
                         <div class="col-12 col-md-6 order-md-2 order-first">
                             <nav aria-label="breadcrumb" class="breadcrumb-header float-start float-lg-end">
@@ -158,9 +158,7 @@
                             <div class="row">
                             <div class="col-12 col-md-12">
                                 <div class="card">
-                                    <div class="card-header">
-                                        <h4 class="card-title">Daftar Artikel</h4>
-                                    </div>
+            
                                     <div class="card-content">
                                         <!-- Table with no outer spacing -->
                                         <div class="table-responsive">
@@ -168,8 +166,8 @@
                                                 <thead>
                                                     <tr>
                                                         <th>No</th>
-                                                        <th>Judul Artikel</th>
-                                                        <th>Deskripsi Konten</th>
+                                                        <th>Judul</th>
+                                                        <th>Deskripsi</th>
                                                         <th></th>
                                                         <th>Status Laporan</th>
                                                     </tr>

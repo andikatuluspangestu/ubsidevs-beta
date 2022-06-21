@@ -87,7 +87,7 @@
                     </li>
 
                     <li class="sidebar-item">
-                        <a href="../index.php" target="_blank" class='sidebar-link'>
+                        <a href="/wp-project" target="_blank" class='sidebar-link'>
                             <i class="bi bi-globe"></i>
                             <span>Lihat Website</span>
                         </a>

@@ -9,5 +9,4 @@
     <link rel="stylesheet" href="../assets/css/main/app-dark.css">
     <link rel="shortcut icon" type="image/x-icon" href="https://ubsidevs.github.io/images/favicon.ico" />
     <link rel="stylesheet" href="../assets/css/shared/iconly.css">
-    <link href="../assets/css/quill.snow.css" rel="stylesheet">
 </head>
